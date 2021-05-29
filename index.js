@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const cities = require('./src/routes/city');
+const districts = require('./src/routes/district');
+const provinces = require('./src/routes/province');
 
 require("dotenv").config();
 
@@ -34,3 +36,5 @@ app.listen(process.env.PORT, () =>{
 })
 
 app.use('/cities', cities)
+app.use('/districts', districts)
+app.use('/provinces', provinces)
