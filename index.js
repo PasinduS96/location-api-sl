@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
+const cities = require('./src/routes/city');
+
 require("dotenv").config();
 
 app.use(bodyParser.urlencoded({extended: false}))
@@ -26,3 +28,5 @@ app.listen(process.env.PORT, () =>{
         
     })
 })
+
+app.use('/cities', cities)
