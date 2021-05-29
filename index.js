@@ -21,11 +21,15 @@ app.listen(process.env.PORT, () =>{
     mongoose.Promise = global.Promise;
     mongoose
     .connect(process.env.MONGO_URI,{
+        useFindAndModify: false,
         useNewUrlParser: true,
         useUnifiedTopology: true
     }, (err, db) =>{
-        console.log("MongoDB Connected Successfully!!")
-        
+        if(!err){
+            console.log("MongoDB Connected Successfully!!")
+        }else{
+            console.log(err);
+        }
     })
 })
 
