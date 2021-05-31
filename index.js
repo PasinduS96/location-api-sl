@@ -35,6 +35,10 @@ app.listen(process.env.PORT, () =>{
     })
 })
 
+app.get('/', (req,res) => {
+    res.send('Location API Online');
+})
+
 app.use('/cities', cities)
 app.use('/districts', districts)
 app.use('/provinces', provinces)
