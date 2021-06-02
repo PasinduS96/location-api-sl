@@ -9,10 +9,12 @@ Developers can use this API to get datails of cities, districts and provinces wh
 
 ### Implemantations 
 
-MongoDB
-NodeJS
+- MongoDB
+- NodeJS
 
 ### Hosting
 
-Heroku
-DigitalOcean
+- Heroku
+- DigitalOcean
+
+
