@@ -29,6 +29,23 @@ router.get('/byDistrict/:id', (req,res) => {
     })
 })
 
+router.get('/colombo_mca/:id', (req,res) => {
+    city.find({name_en: "Colombo "+ req.params.id}).then(result => {
+        res.send(result);
+    }).catch(err =>{
+        console.log(err);
+    })
+})
+
+router.get('/colombo_mca', (req,res) => {
+    city.find({name_en: /Colombo/}).then(result => {
+        res.send(result);
+    }).catch(err =>{
+        console.log(err);
+    })
+})
+
+
 
 
 
