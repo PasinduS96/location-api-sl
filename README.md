@@ -171,10 +171,10 @@ Assume user needs to find count of districts in western province, Sri Lanka
    ```
 3. Create .env file for environment varialbes
 4. Create environment variables
-```sh
+   ```sh
    PORT=
    MONGO_URI=
-```
+   ```
 5. Run Project
    ```sh
    npm start
