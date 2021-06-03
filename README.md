@@ -34,4 +34,10 @@ Developers can use this API to get datails of cities, districts and provinces wh
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities
-   ``
+```
+
+####### Get All Provinces in Sri Lanka
+
+```sh
+   https://locationssrilanka.herokuapp.com/cities
+```
