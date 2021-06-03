@@ -1,5 +1,37 @@
 # Location Data API - Sri Lanka
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+
+
+
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#introduction">Introduction</a>
+    </li>
+    <li>
+      <a href="#Technologies">Technologies</a>
+      <ul>
+        <li><a href="#implemantations">Implemantations</a></li>
+        <li><a href="#hosting">Hosting</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#use-cases">Use Cases</a>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#project-setup">Project Setup</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
 ## Introduction
 
 Developers can use this API to get datails of cities, districts and provinces which located all around the Sri Lanka. This API can easily intergarte to you appication using particular URI. 
@@ -137,13 +169,37 @@ Assume user needs to find count of districts in western province, Sri Lanka
    ```sh
    npm install
    ```
-3.Create .env file for environment varialbes
-4.Create environment variables
+3. Create .env file for environment varialbes
+4. Create environment variables
 ```sh
    PORT=
    MONGO_URI=
 ```
-5.Run Project
+5. Run Project
    ```sh
    npm start
    ```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## Acknowledgements
+* [Sri Lanka Provinces Districts Cities Database](https://github.com/madurapa/sri-lanka-provinces-districts-cities)
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/PasinduS96/location-api-sl/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/PasinduS96/location-api-sl/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/PasinduS96/location-api-sl/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/PasinduS96/location-api-sl/issues
