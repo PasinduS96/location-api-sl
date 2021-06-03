@@ -62,25 +62,25 @@ Developers can use this API to get datails of cities, districts and provinces wh
 
 ### API Documentation
 
-#### Get Major Cities And Sub Areas in Sri Lanka
+#### 1. Get Major Cities And Sub Areas in Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities
 ```
 
-#### Get All Provinces in Sri Lanka
+#### 2. Get All Provinces in Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/provinces
 ```
 
-#### Get All Districts in Sri Lanka
+#### 3. Get All Districts in Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/districts
 ```
 
-#### Get GPS Cordinates of major city or sub area in Sri Lanka
+#### 4. Get GPS Cordinates of major city or sub area in Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities/cordinates/[CITY NAME IN ENGLISH]
@@ -94,7 +94,7 @@ Assume user needs to find GPS cordinates of Kadduwela, Sri Lanka
    https://locationssrilanka.herokuapp.com/cities/cordinates/Kaduwela
 ```
 
-#### Get all major cities or sub areas in selected distict Sri Lanka
+#### 5. Get all major cities or sub areas in selected distict Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities/cordinates/[DISTRICT ID]
@@ -108,7 +108,7 @@ Assume user needs to find GPS cordinates of Colombo District, Sri Lanka
    https://locationssrilanka.herokuapp.com/cities/byDistrict/5
 ```
 
-#### Get Administrative Districts of the Colombo Mucipal Council, Sri Lanka
+#### 6. Get Administrative Districts of the Colombo Mucipal Council, Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities/colombo_mca/[COLOMBO SUB AREA]
@@ -123,14 +123,14 @@ Assume user needs to find details of Colombo 1, Sri Lanka
 ```
 
 
-#### Get all Administrative Districts of the Colombo Mucipal Council, Sri Lanka
+#### 7. Get all Administrative Districts of the Colombo Mucipal Council, Sri Lanka
 
 ```sh
    https://locationssrilanka.herokuapp.com/cities/colombo_mca
 ```
 
 
-#### Get all Districts in Selected Province
+#### 8. Get all Districts in Selected Province
 
 ```sh
    https://locationssrilanka.herokuapp.com/districts/byprovince/[PROVINCE ID]
@@ -144,7 +144,7 @@ Assume user needs to find districts in western province, Sri Lanka
    https://locationssrilanka.herokuapp.com/districts/byprovince/1
 ```
 
-#### Get count of all Districts in Selected Province
+#### 9. Get count of all Districts in Selected Province
 
 ```sh
    https://locationssrilanka.herokuapp.com/districts/districtcount/[PROVINCE ID]
