@@ -192,3 +192,7 @@ Contributions are what make the open source community such an amazing place to b
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/PasinduS96/location-api-sl/blob/master/LICENSE
+
+## License
+
+MIT © [PasinduS96](https://github.com/PasinduS96/location-api-sl/blob/master/LICENSE)
