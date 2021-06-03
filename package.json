@@ -1,14 +1,14 @@
 {
   "name": "location_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This API can be use to all developers to get location details of Sri Lanka including major cities, sub areas, districts and Provinces",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pasindu Senarathne",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",

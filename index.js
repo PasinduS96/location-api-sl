@@ -36,7 +36,8 @@ app.listen(process.env.PORT, () =>{
 })
 
 app.get('/', (req,res) => {
-    res.send('Location API Online');
+    const data = {state: 'online', reference:  `https://github.com/PasinduS96/location-api-sl/blob/master/README.md`}
+    res.send(data);
 })
 
 app.use('/cities', cities)
