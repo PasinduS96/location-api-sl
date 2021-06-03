@@ -1,11 +1,7 @@
 # Location Data API - Sri Lanka
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 
-
+[![MIT License][license-shield]][license-url]
 
 
 <details open="open">
@@ -194,12 +190,5 @@ Contributions are what make the open source community such an amazing place to b
 ## Acknowledgements
 * [Sri Lanka Provinces Districts Cities Database](https://github.com/madurapa/sri-lanka-provinces-districts-cities)
 
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/PasinduS96/location-api-sl/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/PasinduS96/location-api-sl/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/PasinduS96/location-api-sl/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/PasinduS96/location-api-sl/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/PasinduS96/location-api-sl/blob/master/LICENSE.txt
