@@ -3,6 +3,8 @@
 
 [![MIT License][license-shield]][license-url]
 
+![System Diagram](https://i.imgur.com/kdCzEBw.png)
+
 
 <details open="open">
   <summary>Table of Contents</summary>
