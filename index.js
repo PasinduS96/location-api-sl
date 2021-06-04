@@ -13,7 +13,11 @@ require("dotenv").config();
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json());
 
+app.use(express.static('public'))
+
 app.use(cors())
+
+app.set('view engine', 'ejs')
 
 app.listen(process.env.PORT, () =>{
 
@@ -36,8 +40,7 @@ app.listen(process.env.PORT, () =>{
 })
 
 app.get('/', (req,res) => {
-    const data = {state: 'online', reference:  `https://github.com/PasinduS96/location-api-sl/blob/master/README.md`}
-    res.send(data);
+    res.render('index')
 })
 
 app.use('/cities', cities)

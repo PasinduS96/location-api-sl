@@ -1,0 +1,22 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.content {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text-main {
+	font-family: 'Raleway', sans-serif;
+	font-size: larger;
+}
+
+.styled-text {
+	font-family: 'Raleway', sans-serif;
+}
