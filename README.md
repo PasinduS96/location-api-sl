@@ -2,6 +2,8 @@
 
 
 [![MIT License][license-shield]][license-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
 
 ![System Diagram](https://i.imgur.com/kdCzEBw.png)
 
@@ -192,8 +194,12 @@ Contributions are what make the open source community such an amazing place to b
 ## Acknowledgements
 * [Sri Lanka Provinces Districts Cities Database](https://github.com/madurapa/sri-lanka-provinces-districts-cities)
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/PasinduS96/location-api-sl?style=for-the-badge
 [license-url]: https://github.com/PasinduS96/location-api-sl/blob/master/LICENSE
+[forks-shield]: https://img.shields.io/github/forks/PasinduS96/location-api-sl?style=for-the-badge
+[forks-url]: https://github.com/PasinduS96/location-api-sl/network/members
+[stars-shield]: https://img.shields.io/github/stars/PasinduS96/location-api-sl?style=for-the-badge
+[stars-url]: https://github.com/PasinduS96/location-api-sl/stargaze
 
 ## License
 
