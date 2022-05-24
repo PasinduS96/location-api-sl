@@ -14,7 +14,7 @@ router.get('/', (req,res) => {
 })
 
 router.get('/byprovince/:id', (req,res) => {
-    districts.find({province_id: req.params.id},{ name_en: 1, name_si: 1, name_ta:1 }).then(result => {
+    districts.find({province_id: req.params.id},{ id: 1, name_en: 1, name_si: 1, name_ta:1 }).then(result => {
         res.send(result);
     }).catch(err =>{
         console.log(err);
